@@ -1,11 +1,10 @@
-import Image from 'next/image'
-import UsersPage from './users/page'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <main>
       <h1>Hello world</h1>
-      <UsersPage/>
+      <Link href="/users" >Users</Link>
     </main>
   )
 }
